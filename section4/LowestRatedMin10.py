@@ -18,7 +18,7 @@ def parseInput(line):
 
 
 if __name__ == "__main__":
-    # Create a SparkSession (the config bit is only for Windows!)
+    # Create a SparkSession
     spark = SparkSession.builder.appName("PopularMovies").getOrCreate()
 
     # Load up our movie ID -> name dictionary
